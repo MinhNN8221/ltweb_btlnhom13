@@ -1,0 +1,153 @@
+.wrapper{
+    width: 1200px;
+    max-width: 100%;
+    margin: auto;
+    padding: 0px 12px;
+}
+.content-cart{
+    text-align: center;
+    padding: 35px 0px;
+}
+.content-cart h1{
+    font-size: 3.6rem;
+    line-height: 2.0rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px -12px;
+}
+
+
+/* css cho  phần giỏ hàng  */
+.container-cart{
+    padding: 0px 12px;
+    width: 60%;
+}
+
+/* tiêu đề cho phần giỏ hàng và đơn hàng*/
+ h5.header{
+    font-size: 2.0rem;
+    padding: 10px 0px;
+    font-weight: 400;
+}
+
+/* css vùng chứa đơn hàng */
+.cart-box{
+    background-color: var(--trang);
+    box-shadow: 0 0 4px rgb(0 0 0 / 8%);
+}
+.cart-box ul{
+    padding: 15px 15px 0px 15px;
+    min-height: 200px;
+}
+
+.cart-item{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 15px 0px; 
+    border-bottom: 1px solid rgba(65, 59, 59, 0.37);
+}
+
+
+.item-info{
+    font-size: 1.7rem;
+    padding: 10px;
+    text-align: center;
+    flex-grow: 1;
+}
+.item-img{
+    flex-grow: 1;
+    flex-basis: 15%;
+}
+.item-img a img{
+      width: 100%;
+      text-decoration: none;
+}
+.item-description{
+    flex-grow: 2;
+}
+
+.item-price{
+   font-weight: 400;
+   color: var(--do);
+}
+
+.item-counter{
+    display: flex;
+    font-size: 1.8rem;
+    align-items: center;
+    width: 100%;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    margin-top: -5px;
+}
+.item-counter *{
+    flex-grow: 1;
+    flex-basis: 33.3333%;
+    display: block;
+    padding: 5px 5px;
+}
+
+.item-counter span{
+        border-left: 1px solid #e0e0e0;
+        border-right: 1px solid #e0e0e0;
+}
+.item-delete-icon{
+  
+}
+/* css cho vung đơn hang */
+.container-order{
+    padding: 0px 12px;
+    margin-left: 20px;
+    width: 30%;
+}
+.order-box{
+    padding: 15px 20px;
+    background-color: var(--trang);
+    box-shadow: 0 0 4px rgb(0 0 0 / 8%);
+}
+
+.order-info-row{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+    font-size: 1.7rem;
+    line-height: 2.0rem;
+    font-weight: 400;
+}
+.total-order{
+    padding: 0px 15px;
+    margin: 15px 0px 10px;
+    font-weight: bold;
+}
+span#total-money{
+    color: var(--do);
+}
+
+.payment{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0px 20px;
+    
+}
+
+.payment a{
+    display: block;
+    width: 50%;
+    padding: 15px 0px;
+    color: var(--trang);
+    text-align: center;
+    border-radius: 5px;
+    font-size: 2.0rem;
+    font-weight: 550;
+    background-color: var(--do);
+}
+
+.payment a:hover{
+    background-color: rgb(94, 17, 17);
+}

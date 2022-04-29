@@ -1,0 +1,435 @@
+/* css phần tieude */
+
+.tieude {
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+}
+
+.nav-dieuhuong {
+    max-height: 50px;
+    background-color: var(--do);
+}
+
+.nav-dieuhuong-danhsach {
+    list-style: none;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.nav-dieuhuong-duongdan,
+.nav-dieuhuong-muc {
+    display: inline-block;
+    text-decoration: none;
+    color: var(--trang);
+    font-size: 1.4rem;
+    padding: 5px 0px;
+    margin: 0px 5px;
+    font-weight: 400;
+}
+
+.nav-dieuhuong-duongdan :hover,
+.nav-dieuhuong-muc:hover {
+    opacity: 0.7;
+}
+
+.tieude-con {
+    padding: 10px 0px;
+    background-color: #f12a43;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+
+}
+
+.tieude__logo {
+    width: 25%;
+    padding: 0px 40px;
+}
+
+.tieude__logo-img {
+    width: 100%;
+     padding: 6px 0px;
+    font-size: 2.9rem;
+    color: var(--trang);
+    font-weight: bold;
+}
+
+.tieude__timkiem {
+    background-color: var(--trang);
+    height: 40px;
+    border-radius: 10px;
+    flex-grow: 1;
+    display: flex;
+
+}
+
+.form {
+    border: none;
+    outline: none;
+}
+
+.tieude__timkiem-input {
+    flex-grow: 1;
+    height: 100%;
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+    padding: 0px 15px;
+    border-radius: 4px;
+}
+
+.tieude_giohang,
+.tieude_giohang-duongdan {
+    width: 130px;
+    display: inline-flex;
+    margin-left: 10px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: var(--trang);
+    font-size: 1.4rem;
+}
+
+.tieude_giohang-icon {
+    font-size: 2.5rem;
+    margin-right: 10px;
+    color: var(--trang);
+    position: relative;
+}
+.tieude_giohang-icon span{
+    position: absolute;
+    display: block;
+    text-align: center;
+    top: -6px;
+    right: 0px;
+    color: black;
+    line-height: 15px;
+    vertical-align: baseline;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #ffe300;
+    font-size: 1rem;
+}
+
+
+.tieude__dienthoai a{
+    width: 240px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.tieude__dienthoai-icon {
+    font-size: 2.5rem;
+    margin-right: 10px;
+    color: var(--trang);
+    margin-right: 5px;
+}
+
+.tieude__dienthoai-text {
+    font-size: 1.4rem;
+    color: var(--trang);
+}
+
+.tieude__dienthoai-text-1 {
+    font-weight: bold;
+}
+
+.tieude__timkiem-btn {
+    background-color: #ffa800;
+    text-decoration: none;
+    height: 100%;
+    border-radius: 0px 4px 4px 0px;
+    width: 10%;
+}
+
+.tieude__timkiem-btn-icon {
+    font-size: 1.8rem;
+    color: var(--trang);
+}
+
+/* css phần container */
+.web-noidung {
+    background-color: #f5f5f5;
+    padding: 30px 0px 60px;
+}
+
+.noidung {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.noidung-dieuhuongtrang{
+   
+    margin: 20px 0px;
+    padding: 15px 5px;
+}
+
+.dieuhuongtrang-danhsach {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.dieuhuongtrang-muc a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    margin-right: 10px;
+    color: black;
+}
+.dieuhuongtrang-muc a span{
+    padding-right: 5px;
+}
+.phancach{
+    
+    width: 16px;
+    height: 16px;
+    
+}
+/* Phần danh mục sản phẩm */
+.noidung-hang {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.danhmuc {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 20%;
+}
+
+.danhmuc-khoi {
+    background-color: var(--trang);
+    padding: 0px 18px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.tieude-danhmuc {
+    font-size: 1.5rem;
+    padding: 16px 5px 16px 5px;
+    font-weight: bold;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+
+}
+
+.danhmuc-danhsach {
+    padding-left: 0;
+}
+
+.danhmuc-duongdan {
+    display: block;
+    font-size: 1.7rem;
+    
+    font-weight: 500;
+    padding: 20px 5px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    text-transform: capitalize;
+    color: black;
+}
+
+.danhmuc-duongdan:hover {
+    color: var(--do);
+}
+/* Phần hiẻn thị sản phẩm */
+.sanpham {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 80%;
+}
+
+.sanpham-bocuc {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 25%;
+}
+
+.sanpham-muc {
+    background-color: var(--trang);
+    margin-bottom: 20px;
+    box-shadow: 1px 5px 3px rgb(0 0 0 / 5%);
+    transition: transform ease 0.3s;
+    will-change: transform;
+}
+
+.sanpham-muc:hover {
+    transform: translate(0, -2px);
+    box-shadow: 0 10px 20px rgb(0 0 0 / 10%);
+}
+
+.sanpham-hinhanh__img {
+    width: 100%;
+}
+
+.sanpham-noidung {
+    margin: 0px 10px;
+}
+
+.sanpham-ten {
+    text-align: left;
+    margin: 30px 0px 10px;
+    font-size: 1.5rem;
+    line-height: 1.9rem;
+    font-weight: 550;
+    min-height: 50px;
+}
+
+.sanpham-noidung-chitiet {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sanpham-noidung-chitiet>* {
+    flex-basis: 40%;
+    line-height: 1.8rem;
+    font-size: 1.5rem;
+    padding: 20px 0px;
+}
+
+.themsanpham {
+    border-radius: 5px;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.themsanpham span {
+    background-color: var(--do);
+    border-radius: 5px;
+    padding: 10px 10px;
+    font-weight: 600;
+    color: var(--trang);
+    transition: background-color 0.8s;
+    text-transform: uppercase;
+    box-shadow: 1px 5px 3px rgb(0 0 0 / 10%);
+}
+
+.themsanpham span:hover {
+    background-color: black;
+    box-shadow: 1px 8px 3px rgb(0 0 0 / 5%);
+}
+
+.sanpham-gia {
+    color: var(--do);
+    font-weight: 550;
+    justify-self: center;
+    line-height: 1.5rem;
+}
+
+/* phân trang web */
+.pagination {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 0px;
+    font-size: 1.8rem;
+}
+.pagination a.active {
+    background-color: #ed3324;
+    color: var(--trang);
+}
+.pagination a:hover{
+    background-color: #ed3324;
+    color: var(--trang);
+}
+.pagination a {
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 0px 8px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+/* chân trang web */
+
+.footer {
+    background-color: #f12a43;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 0px;
+}
+
+.footer * {
+    color: var(--trang);
+
+    margin: 5px 0px;
+}
+
+.footer .name {
+    font-size: 2.5rem;
+    font-weight: 550;
+    margin-bottom: 5px;
+}
+
+.footer .address {
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+}
+.footer img{
+    width: 30%;
+}
+.thongtin-lienhe{
+    padding: 0px 10px;
+    width: 60%;
+}
+.form-lienhe{
+    padding: 0px 10px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+.form-lienhe-hang{
+    display: flex;
+    margin: 0px 0px 10px;
+}
+.form-lienhe-hang *{
+    flex-grow: 1;
+    box-shadow: inset 0 1px 2px rgb(0 0 0 / 10%);
+    text-align: left;
+    font-size: 1.2rem;
+   
+}
+.form-lienhe-hang textarea{
+    padding: 10px 5px;
+}
+.btn-lienhe input{
+    width: 20%;
+    text-align: center;
+    justify-content: flex-end;
+    background-color: rgb(255, 0, 34);
+}
+.thongtin-lienhe h1{
+    margin-bottom: 50px;
+    font-size: 3.5rem;
+    font-weight: 650;
+}
+
+.thongtin{
+    margin: 15px 0px;
+}
+.thongtin *{
+    display: block;
+}
+.thongtin h3{
+    font-size: 2.0rem;
+    line-height: 2.5rem;
+    font-weight: 600;
+}
+.thongtin span{
+    padding: 10px 0px;
+    font-size: 1.5rem;
+}
